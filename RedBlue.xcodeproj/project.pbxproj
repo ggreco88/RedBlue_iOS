@@ -13,6 +13,8 @@
 		D3E748271D106C7300F9E754 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3E748261D106C7300F9E754 /* Images.xcassets */; };
 		D3E7482A1D106C7300F9E754 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E748281D106C7300F9E754 /* LaunchScreen.xib */; };
 		D3E748361D106C7300F9E754 /* RedBlueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E748351D106C7300F9E754 /* RedBlueTests.swift */; };
+		D3E748401D106D8000F9E754 /* redCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E7483F1D106D8000F9E754 /* redCircle.png */; };
+		D3E748421D106DD400F9E754 /* blueCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E748411D106DD400F9E754 /* blueCircle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		D3E7482F1D106C7300F9E754 /* RedBlueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedBlueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E748341D106C7300F9E754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3E748351D106C7300F9E754 /* RedBlueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBlueTests.swift; sourceTree = "<group>"; };
+		D3E7483F1D106D8000F9E754 /* redCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redCircle.png; path = ../../../../redCircle.png; sourceTree = "<group>"; };
+		D3E748411D106DD400F9E754 /* blueCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueCircle.png; path = ../../../../blueCircle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		D3E7481D1D106C7300F9E754 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D3E748411D106DD400F9E754 /* blueCircle.png */,
+				D3E7483F1D106D8000F9E754 /* redCircle.png */,
 				D3E7481E1D106C7300F9E754 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,7 +199,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3E748251D106C7300F9E754 /* Main.storyboard in Resources */,
+				D3E748401D106D8000F9E754 /* redCircle.png in Resources */,
 				D3E7482A1D106C7300F9E754 /* LaunchScreen.xib in Resources */,
+				D3E748421D106DD400F9E754 /* blueCircle.png in Resources */,
 				D3E748271D106C7300F9E754 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +351,7 @@
 				INFOPLIST_FILE = RedBlue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -353,6 +362,7 @@
 				INFOPLIST_FILE = RedBlue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
